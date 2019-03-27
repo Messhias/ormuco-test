@@ -1,8 +1,8 @@
-#First considerations! Read this first!
+# First considerations! Read this first!
 
 
-To run this test you **need docker installed 
-or if you want run without it is your choice, 
+To run **I strongly suggest to you install docker but
+ if you want run without it is your choice, 
 but the docker it'll avoid you the
  obrigation to have python installed on your local machine and properly configured to run.**
 
@@ -47,25 +47,25 @@ machine and run manually the tests, usually when we have 2 versions of python
 ![Docker outuput screenshot](./image.png)
 
 
-#TECHNICAL TEST 
+# TECHNICAL TEST 
 
-###Question A
+### Question A
 Your goal for this question is to write a program that accepts two lines (x1,x2) and (x3,x4) on the x-axis and returns whether they overlap. As an example, (1,5) and (2,6) overlaps but not (1,5) and (6,8).
 
-#####Checkout the file:
+##### Checkout the file:
 ```
 overlap.py
 ```
  
-###Question B
+### Question B
 The goal of this question is to write a software library that accepts 2 version string as input and returns whether one is greater than, equal, or less than the other. As an example: “1.2” is greater than “1.1”. Please provide all test cases you could think of.
-#####Checkout the file:
+##### Checkout the file:
 ```
 version_check.py
 ```
  
 
-###Question C
+### Question C
 At Ormuco, we want to optimize every bits of software we write. Your goal is to write a new library that can be integrated to the Ormuco stack. Dealing with network issues everyday, latency is our biggest problem. Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration. This library will be used extensively by many of our services so it needs to meet the following criteria:
  
     1 - Simplicity. Integration needs to be dead simple.
@@ -77,9 +77,9 @@ At Ormuco, we want to optimize every bits of software we write. Your goal is to 
     7 - Cache can expire 
 
 
-#####I didn't understand this question so I create out a default cache where you can for any situation.
+##### I didn't understand this question so I create out a default cache where you can for any situation.
 
-#####Checkout the file:
+##### Checkout the file:
 ```
 cache.py
 ```
