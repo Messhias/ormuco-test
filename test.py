@@ -106,7 +106,7 @@ def cache_test():
         :return:
     """
     # Test the cache
-    Keys = [i for i in range(random.randint(1,99))]  # Total Entries
+    Keys = [i for i in range(random.randint(1,10))]  # Total Entries
     place = [
         'Imalia', 'Brazil', 'Canada', 'Zimbabawe',
          'Saturn?', 'New Zealand', 'São Paulo', 'Dubai',
