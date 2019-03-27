@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    container_name: ormuco_test_container
+    build: .
+    command: python test.py
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
