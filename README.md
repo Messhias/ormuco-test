@@ -1,8 +1,8 @@
 # First considerations! Read this first!
 
 
-To run this test you **need docker installed 
-or if you want run without it is your choice, 
+To run **I strongly suggest to you install docker but
+ if you want run without it is your choice, 
 but the docker it'll avoid you the
  obrigation to have python installed on your local machine and properly configured to run.**
 
